@@ -41,17 +41,18 @@
             + 出现的问题：报403错误
             + 原因：1）保证本地文件package.json中name名，不能在npm中存在;2）此项目之前已经提交了，所以需要修改package.json中的版本号
          + CDN: `http://unpkg.com/fast-cache-npm/目录/压缩js`,如`http://unpkg.com/fast-cache-npm/release/bundle.js`
-            + CDN会自动更新到最新的版本
-    + 功能开发步骤：
-       + 新建dev分支，然后进行功能代码添加，测试；
-       + 更改package.json中的version
-       + 测试完成后，将dev分支提交到远程
-       + 代码开发完成后，发布版本
-       + 再次确认版本号是否修改，因为其非常重要
-       + 将dev分支合并到master分支上，并提交到远程master分支
-       + 创建tag并提交到远程releases中，发布新版本
-       + 提交到npm，特别注意版本号必须修改
-
+    + 升级代码并提交
+       + 升级代码步骤
+          + 新建一个本地dev分支，不要在master分支上开发
+          + 修改package.json版本号，按照之前既定的版本规则修改，不能乱改；
+          + 修改代码、文档和测试用例
+          + 自测
+          + 将本地dev分支提交到远程
+       + 代码开发完成后，提交的流程
+          + 再次确认新版本号，版本号很重要
+          + 将本地dev合并到本地master分支上，并提交到远程master分支上
+          + 创建tag并提交到远程
+          + 提交到npm
        
 - 待学习知识
    + gitbook知识点学习

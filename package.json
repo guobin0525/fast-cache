@@ -2,7 +2,7 @@
   "name": "fast-cache-gms",
   "version": "0.0.4",
   "description": "简洁 易懂 方便 牛X",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "webpack --progress --colors",

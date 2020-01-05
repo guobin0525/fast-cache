@@ -80,7 +80,7 @@ module.exports={
     plugins: [
         //提取css
         new ExtractTextPlugin({
-            filename: "style1.css"//不能使用[contenthash].css
+            filename: "bundle.css"//不能使用[contenthash].css
         }),
         new HtmlWebpackPlugin({template:"src/index.html"}),
         new VueLoaderPlugin()
