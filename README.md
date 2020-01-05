@@ -7,6 +7,7 @@
 ## 安装和下载
 
 - 下载地址：https://github.com/guobin0525/fast-cache/releases
+- npm下载: `npm i fast-cache-gms`
 
 
 ## 快速使用

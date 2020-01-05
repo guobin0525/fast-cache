@@ -34,7 +34,13 @@
         git tag -a 'v0.0.1' -m 'first commit'
         git push origin v0.0.1
        ```
-       
+       + 发布到npm上，能让使用者通过npm进行安装
+         + 运行`npm add user`安装插件
+         + 运行`npm login`登录npm个人账户，输入username,password,email
+         + 运行`npm publish .`发布当前版本
+            + 出现的问题：报403错误
+            + 原因：1）保证本地文件package.json中name名，不能在npm中存在
 
+       
 - 待学习知识
    + gitbook知识点学习
