@@ -11,7 +11,7 @@ module.exports={
     },
     //2.出口文件
     output: {
-        path: path.resolve(__dirname,"dist_dev"),
+        path: path.resolve(__dirname,"release"),
         filename: "[name].js",//name值和chunkhash值为6位
     },
     //3.模型文件，设置编译规则
@@ -82,7 +82,7 @@ module.exports={
         new ExtractTextPlugin({
             filename: "style1.css"//不能使用[contenthash].css
         }),
-        new HtmlWebpackPlugin({template:"./public/index.html"}),
+        new HtmlWebpackPlugin({template:"src/index.html"}),
         new VueLoaderPlugin()
     ],
     mode: "production",
