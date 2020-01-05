@@ -1,6 +1,6 @@
 {
   "name": "fast-cache-gms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "简洁 易懂 方便 牛X",
   "main": "src/index.js",
   "scripts": {
