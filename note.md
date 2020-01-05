@@ -18,3 +18,10 @@
        + 下载到全局： `npm i -g http-server`;
        + 目的：配合package.json中的scripts使用，设置端口号，运行静态资源代码;`{"script": {"example": "http-server -p 5055"}}`
        + 参考链接：[http-server使用文档](https://www.npmjs.com/package/http-server)
+    + 插件：gitbook
+       + 全局安装：`npm i gitbook-cli -g`
+       + 创建`SUMMARY.md`文件
+
+
+- 待学习知识
+   + gitbook知识点学习
