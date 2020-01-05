@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress --colors"
+    "release": "webpack --progress --colors",
+    "example": "http-server -p 3033"
   },
   "repository": {
     "type": "git",

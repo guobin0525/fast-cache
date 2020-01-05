@@ -14,4 +14,7 @@
        + `example` - 示例
     + package.json知识
        + main: 
-       
+    + 插件：http-server
+       + 下载到全局： `npm i -g http-server`;
+       + 目的：配合package.json中的scripts使用，设置端口号，运行静态资源代码;`{"script": {"example": "http-server -p 5055"}}`
+       + 参考链接：[http-server使用文档](https://www.npmjs.com/package/http-server)
