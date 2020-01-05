@@ -2,6 +2,7 @@
 - 知识点
     + 项目取名：一定要提前把名字在github和npm搜索一下，确认没有重名才行
     + 协议：licence: MIT
+    + 创建项目仓库时选择`.gitignore`为node；协议licence为 MIT；
     + 版本号解析：xx.xx.xx
        + 一级：重构版本
        + 二级：重大功能改进
@@ -22,6 +23,17 @@
     + 插件：gitbook
        + 全局安装：`npm i gitbook-cli -g`
        + 创建`SUMMARY.md`文件
+       ```
+         # Summary
+
+         * [项目介绍](README.md)
+         * [使用文档](doc/use/README.md)
+            * [使用1](doc/use/use1.md)
+            * [使用2](doc/use/use2.md)
+         * [二次开发](doc/dev/README.md)
+            * [开发1](doc/dev/dev1.md)
+            * [开发2](doc/dev/dev2.md)      
+       ```
        + 步骤：
          + 1）在SUMMARY.md文件中第一行`* [项目介绍](README.md)`对应的目录下已经存在README.md文件
          + 2）运行`gitbook init`，会将SUMMARY.md中的文件创建出来；
