@@ -1,6 +1,6 @@
 {
   "name": "fast-cache-gms",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "简洁 易懂 方便 牛X",
   "main": "src/main.js",
   "scripts": {
@@ -44,7 +44,5 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
-  "dependencies": {
-    "user": "0.0.0"
-  }
+  "dependencies": {}
 }
