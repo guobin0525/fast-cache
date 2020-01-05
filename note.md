@@ -21,7 +21,11 @@
     + 插件：gitbook
        + 全局安装：`npm i gitbook-cli -g`
        + 创建`SUMMARY.md`文件
-
+       + 步骤：
+         + 1）在SUMMARY.md文件中第一行`* [项目介绍](README.md)`对应的目录下已经存在README.md文件
+         + 2）运行`gitbook init`，会将SUMMARY.md中的文件创建出来；
+         + 3）运行`gitbook build`可以将md文件发布为html文件；默认放在`_book`文件夹下；
+         + 4) 运行html文件，即可看到导航；
 
 - 待学习知识
    + gitbook知识点学习
