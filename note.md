@@ -29,7 +29,7 @@
          + 4) 运行html文件，即可看到导航；
          + 5) 注意提交时，要在`.gitignore`中添加`_book`；
     + 发布版本
-       + 发布到github上，代码如下
+       + 发布到github上，创建tag,并提交到远程代码如下
        ```
         git tag -a 'v0.0.1' -m 'first commit'
         git push origin v0.0.1
@@ -41,6 +41,16 @@
             + 出现的问题：报403错误
             + 原因：1）保证本地文件package.json中name名，不能在npm中存在;2）此项目之前已经提交了，所以需要修改package.json中的版本号
          + CDN: `http://unpkg.com/fast-cache-npm/目录/压缩js`,如`http://unpkg.com/fast-cache-npm/release/bundle.js`
+            + CDN会自动更新到最新的版本
+    + 功能开发步骤：
+       + 新建dev分支，然后进行功能代码添加，测试；
+       + 更改package.json中的version
+       + 测试完成后，将dev分支提交到远程
+       + 代码开发完成后，发布版本
+       + 再次确认版本号是否修改，因为其非常重要
+       + 将dev分支合并到master分支上，并提交到远程master分支
+       + 创建tag并提交到远程releases中，发布新版本
+       + 提交到npm，特别注意版本号必须修改
 
        
 - 待学习知识
