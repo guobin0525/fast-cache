@@ -12,7 +12,7 @@ module.exports={
     //2.出口文件
     output: {
         path: path.resolve(__dirname,"release"),
-        filename: "[name].js",//name值和chunkhash值为6位
+        filename: "bundle.js",//name值和chunkhash值为6位
     },
     //3.模型文件，设置编译规则
     module: {

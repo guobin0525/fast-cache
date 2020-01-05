@@ -40,6 +40,7 @@
          + 运行`npm publish .`发布当前版本
             + 出现的问题：报403错误
             + 原因：1）保证本地文件package.json中name名，不能在npm中存在;2）此项目之前已经提交了，所以需要修改package.json中的版本号
+         + CDN: `http://unpkg.com/fast-cache-npm/release/main.js`
 
        
 - 待学习知识
