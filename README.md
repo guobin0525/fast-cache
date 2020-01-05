@@ -6,6 +6,9 @@
 
 ## 安装和下载
 
+- 下载地址：https://github.com/guobin0525/fast-cache/releases
+
+
 ## 快速使用
 
 简单接入的文档,采用外链的形式

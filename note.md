@@ -1,5 +1,6 @@
 ### gitHub上创建开源项目
 - 知识点
+    + 项目取名：一定要提前把名字在github和npm搜索一下，确认没有重名才行
     + 协议：licence: MIT
     + 版本号解析：xx.xx.xx
        + 一级：重构版本
@@ -26,6 +27,14 @@
          + 2）运行`gitbook init`，会将SUMMARY.md中的文件创建出来；
          + 3）运行`gitbook build`可以将md文件发布为html文件；默认放在`_book`文件夹下；
          + 4) 运行html文件，即可看到导航；
+         + 5) 注意提交时，要在`.gitignore`中添加`_book`；
+    + 发布版本
+       + 发布到github上，代码如下
+       ```
+        git tag -a 'v0.0.1' -m 'first commit'
+        git push origin v0.0.1
+       ```
+       
 
 - 待学习知识
    + gitbook知识点学习
